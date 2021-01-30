@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    font-family: Courier;
+    /* aprender a instalar a fonte roboto */
+    text-transform: uppercase;
+}
+    
+
+.container {
+    display: grid;
+    grid-template-rows: 15vh 75vh auto;
+}
+.menu {
+    background-color: black;
+    position: fixed;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__home {
+padding: 1.5vw;
+font-size: 2em;
+}
+
+.menu__list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 1vw;
+}
+
+.menu__list__item {
+    padding: 1.5vw;
+    font-size: 1.5em;
+}
+
+.content {
+    background-color: silver;
+    grid-row-start: 2;
+}
+
+.merch__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* descobrir pq CARALHOS fica um padding do lado esquerdo quando eu boto space around */
+}
+
+.bandMembers__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.albums__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.partners__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* USAR O SASS PRA BOTA MIXIN NESSA PORRA TEM 800 VEZES O MEMO CODIGO */
+.footer {
+    background-color: purple;
+  grid-row-start: 3;
+  /* fixar footer no fim da pg com o grid-area acho */
+
+}

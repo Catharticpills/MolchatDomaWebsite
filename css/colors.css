@@ -1,0 +1,25 @@
+.merch {
+    background-color:red;
+}
+
+.latestVideo {
+    background-color:orange;
+}
+
+.bandMembers {
+    background-color:yellowgreen;
+}
+
+.gallery {
+    background-color:green;
+}
+
+.albums {
+    background-color:blue;
+}
+
+.partners {
+    background-color: blueviolet;
+}
+
+/* lembrar como usa o sass pq ta mt zona isso aq */
